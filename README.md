@@ -1,2 +1,1 @@
-# jolgorio180
-This is a website to promote the party of three friends turning 60.
+## Este repositorio contiene los archivos del sitio web que utilizamos para nuestra boda. 

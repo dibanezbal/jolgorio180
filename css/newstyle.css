@@ -1,0 +1,180 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.color1 {
+  color: #86f07c;
+}
+.color2 {
+  color: #039205;
+}
+.color3 {
+  color: #368302;
+}
+.color4 {
+  color: #409f46;
+}
+.color5 {
+  color: #d9dfd9;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-primary {
+  background: #039205 !important;
+}
+
+.btn-primary {
+    
+}
+
+iframe {
+  overflow-y: hidden;
+}
+
+/* hamburguer */
+
+.navbar a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navbar a.icon-ham {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.page-section h3,
+span.name {
+  color: #039214;
+}
+
+.page-section a,
+.main-content a {
+  text-decoration: none;
+}
+
+/* Google Forms */
+
+.ff-form .ff-title {
+  display: none;
+}
+
+.ff-button-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ff-button-bar button {
+  flex: 0 0 50%;
+}
+
+.ff-button-bar a {
+  display: none !important;
+}
+
+.ff-submit {
+  padding: 1.25rem 2.25rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 10rem !important;
+  max-width: 150px;
+  height: 60px;
+}
+
+#ff-submit-root img,
+.ff-form .ff-button-bar a {
+  display: none !important;
+  max-height: 0 !important;
+}
+
+.ff-form .ff-powered-img img {
+  width: 0px !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.ff-success {
+  text-align: center;
+  min-height: 0 !important;
+}
+
+.ff-success + div > button {
+  display: none !important;
+}
+
+/* Animations */
+.navbar-toggle-icon {
+  opacity: 1;
+  font-size: 2rem;
+  transition: opacity 0.5s ease;
+}
+
+.navbar-toggle-icon:focus {
+  opacity: 0.5;
+}
+
+/* Media queries */
+
+@media (max-width: 990px) {
+  #galery .row > * {
+    max-width: 50%;
+  }
+
+  #image5,
+  #image6 {
+    display: none;
+  }
+
+  .ff-submit {
+    height: 60px !important;
+  }
+
+  .main-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul.navbar-nav {
+    padding-left: 1rem;
+  }
+
+  .callouts .btn {
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .callouts .text {
+    margin-top: -3rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .callouts img {
+    width: 400px;
+  }
+
+  .page-section {
+    padding: 3rem 0 !important;
+  }
+
+  #services;
+}
+
+@media (min-width: 990px) {
+  .navbar-toggle-icon {
+    display: none !important;
+  }
+}
