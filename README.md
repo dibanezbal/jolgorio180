@@ -1,1 +1,1 @@
-## Este repositorio contiene los archivos del sitio web que utilizamos para nuestra boda. 
+## Este repositorio contiene los archivos del sitio web que utilizamos para el cumple. 
