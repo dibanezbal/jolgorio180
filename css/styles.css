@@ -11367,8 +11367,7 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: url(../assets/img/Cabecera.jpg);
-  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/olot.jpg");*/
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11381,13 +11380,35 @@ header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
 
+@media (max-width: 425px) {
+  header.masthead {
+    background: url(../assets/img/Cabecera-mobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    min-height: 40vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header.masthead {
+    margin-top: 80px
+  }
+}
+
+
 
 @media (min-width: 992px) {
+  
   header.masthead {
     height: 80vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+      background-size: cover;
   }
   header.masthead p {
     font-size: 1.15rem;
