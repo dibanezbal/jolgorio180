@@ -30,6 +30,7 @@
     
 }
 
+
 iframe {
   overflow-y: hidden;
 }
@@ -80,6 +81,11 @@ span.name {
 
 .ff-button-bar a {
   display: none !important;
+}
+
+#ff-compose .ff-button-bar .ff-submit {
+    border: 4px solid black;
+    background-color: #039205 !important;
 }
 
 .ff-submit {
@@ -176,5 +182,9 @@ span.name {
 @media (min-width: 990px) {
   .navbar-toggle-icon {
     display: none !important;
+  }
+
+  #image4 {
+    display: none;
   }
 }
