@@ -11374,6 +11374,7 @@ header.masthead {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: #000 1px 1px 1px;
 }
 
 header.masthead h1, header.masthead .h1 {

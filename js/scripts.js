@@ -73,7 +73,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Random galery
 
-    var arr = [1, 2, 3, 4, 5];
+    var arr = [1, 2, 3, 4, 5, 6];
     function randomArrayShuffle(arr) {
         var currentIndex = arr.length, temporaryValue, randomIndex;
         while (1 !== currentIndex) {

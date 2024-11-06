@@ -18,6 +18,10 @@
   color: #d9dfd9;
 }
 
+.icon-picto {
+    width: 80px;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -168,9 +172,7 @@ span.name {
     margin-bottom: 0.5rem !important;
   }
 
-  .callouts img {
-    width: 400px;
-  }
+
 
   .page-section {
     padding: 3rem 0 !important;
